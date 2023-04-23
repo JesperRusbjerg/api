@@ -1,0 +1,51 @@
+{
+    "schema": "https://raw.githubusercontent.com/Perlten/Architectural-Lens/master/config.schema.json",
+    "name": "zeeguu",
+    "rootFolder": "zeeguu",
+    "github": {
+        "url": "https://github.com/zeeguu/api",
+        "branch": "master"
+    },
+    "saveLocation": "./diagrams/",
+    "views": {
+        "completeView": {
+            "packages": [],
+            "ignorePackages": []
+        },
+        "coreView": {
+            "packages": [
+                {
+                    "depth": 1,
+                    "packagePath": "core"
+                }
+            ],
+            "ignorePackages": [
+                "*test*"
+            ]
+        },
+        "apiView": {
+            "packages": [
+                "api"
+            ],
+            "ignorePackages": [
+                "*test*"
+            ]
+        },
+        "languageAndWordView": {
+            "packages": [
+                "core.language",
+                "core.model.word_knowledge"
+            ],
+            "ignorePackages": []
+        },
+        "topLevel": {
+            "packages": [
+                {
+                    "packagePath": "",
+                    "depth": 1
+                }
+            ],
+            "ignorePackages": []
+        }
+    }
+}

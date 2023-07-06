@@ -3,6 +3,10 @@ from sqlalchemy import Column, Integer, Boolean
 from sqlalchemy.orm import relationship
 from zeeguu.core.model.language import Language
 
+# import zeeguu.api.api.teacher_dashboard import general
+
+import zeeguu.api.api.teacher_dashboard.general
+
 
 db = zeeguu.core.db
 

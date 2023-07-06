@@ -10,6 +10,12 @@
     "views": {
         "viewTest": {
             "packages": [
+                {"packagePath": "core", "depth": 10}
+            ],
+            "ignorePackages": ["*test*"]
+        },
+        "viewTestapi": {
+            "packages": [
                 "api",
                 {"packagePath": "core", "depth": 0}
             ],

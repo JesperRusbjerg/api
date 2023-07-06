@@ -10,8 +10,7 @@
     "views": {
         "viewTest": {
             "packages": [
-                "api",
-                {"packagePath": "core", "depth": 0}
+                {"packagePath": "core", "depth": 10}
             ],
             "ignorePackages": ["*test*"]
         }

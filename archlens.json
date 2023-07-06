@@ -1,10 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/Perlten/Architectural-Lens/master/config.schema.json",
     "name": "api",
-    "rootFolder": "zeeguu",
+    "rootFolder": "",
     "github": {
-        "url": "https://github.com/JesperRusbjerg/api",
-        "branch": "master"
+        "url": "",
+        "branch": "main"
     },
     "saveLocation": "./diagrams/",
     "views": {
